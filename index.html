@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+ <h1> Pedido de pizza</h1>
+ <form class="formulario">
+    Nome: <input type="text" name="nome" class="card"> <br>
+    E-mail: <input type="e-mail" name="e-mail" class="card"> <br>
+    <div class="card">Tamanho:
+    <input type="radio" name="tamanho da pizza" value="g" checked> Grande
+    <input type="radio" name="tamanho da pizza" value="m"> Medio
+    <input type="radio" name="tamanho da pizza" value="p"> Pequeno
+    <br>
+     </div>
+    Sabor: <select name="sabor" class="card">
+    <option>Cabalabresa</option>
+    <option>Mussarela</option>
+    <option>Portuguesa</option>
+    <option>Brocolis</option>
+    <option>Brigadeiro</option>
+    <option> Napolitano</option>
+</select>
+<br>
+   <div>Adicionais:
+   <input type="checkbox" name="borda" value="sim"> Borda
+   <input type="checkbox" name="queijo" value="sim"> Queijo extra
+   <br>
+   </div>
+   Data da entrega: <input type="date" name="dataEntrega" class="card">
+   <br>
+   <labe>Comentario</labe>
+  <textarea name="mensagem" rows="3" cols="30" class="card"></textarea>
+  <input type="submit">
+  
+ </form>
+    
+
+</body>
+</html>

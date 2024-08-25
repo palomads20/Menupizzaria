@@ -1,0 +1,9 @@
+.formulario {
+    padding: 32px;
+    background-color: rgba(163, 19, 67, 0.164);
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 15px;
+}
